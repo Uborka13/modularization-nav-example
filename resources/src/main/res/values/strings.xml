@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="auth_button_to_passcode">ToPasscode</string>
+    <string name="auth_button_to_manual">ToManual</string>
+    <string name="auth_button_to_main">ToMain</string>
+</resources>

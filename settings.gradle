@@ -1,0 +1,9 @@
+rootProject.name = "modularization"
+include ':app'
+include ':core'
+include ':core:network'
+include ':features'
+include ':features:auth'
+include ':core:repository'
+include ':features:main'
+include ':resources'

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/auth_nav_graph"
+    app:startDestination="@id/scanSignInFragment">
+
+    <fragment
+        android:id="@+id/scanSignInFragment"
+        android:name="hu.david.urban.auth.scansignin.ScanSignInFragment"
+        android:label="ScanSignInFragment" >
+        <action
+            android:id="@+id/action_scanSignInFragment_to_manualSignInFragment"
+            app:destination="@id/manualSignInFragment" />
+        <action
+            android:id="@+id/action_scanSignInFragment_to_passcodeFragment"
+            app:destination="@id/passcodeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/manualSignInFragment"
+        android:name="hu.david.urban.auth.manualsignin.ManualSignInFragment"
+        android:label="ManualSignInFragment" >
+        <action
+            android:id="@+id/action_manualSignInFragment_to_passcodeFragment"
+            app:destination="@id/passcodeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/passcodeFragment"
+        android:name="hu.david.urban.auth.passcode.PasscodeFragment"
+        android:label="PasscodeFragment" />
+</navigation>
