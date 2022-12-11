@@ -25,7 +25,7 @@ object NetworkModule {
     private const val RAPID_KEY = "x-rapidapi-key"
 
     private const val RAPID_HOST_VALUE = "rawg-video-games-database.p.rapidapi.com"
-    private const val RAPID_KEY_VALUE = "40af1f4ddfmshbd18f55db9525f8p17ec1bjsn623c47c69fe8"
+    private const val RAPID_KEY_VALUE = ""
 
     @Provides
     @Singleton
